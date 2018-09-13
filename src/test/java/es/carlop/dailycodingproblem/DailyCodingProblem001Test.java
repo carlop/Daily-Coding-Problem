@@ -19,14 +19,14 @@ public class DailyCodingProblem001Test {
     int kTwo = 11;
 
     @BeforeEach
-    public void SetUp() {
+    public void setUp() {
         exampleOne = new int[] {10, 15, 3, 7};
         exampleTwo = new int[] {9, 14, 2, 4};
     }
 
     @Test
     @DisplayName("True example")
-    public void TestTrue() {
+    public void testTrue() {
         // Given example
         assertTrue(Problem001.addUpToK(exampleOne, kOne));
 
@@ -36,7 +36,7 @@ public class DailyCodingProblem001Test {
 
     @Test
     @DisplayName("False example")
-    public void TestFalse() {
+    public void testFalse() {
         // Given example
         assertFalse(Problem001.addUpToK(exampleOne, kTwo));
 
