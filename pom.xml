@@ -6,7 +6,10 @@
   <packaging>jar</packaging>
   <version>1.0-SNAPSHOT</version>
   <name>dailycodingproblem</name>
-  <url>http://maven.apache.org</url>
+  <url>https://github.com/carlop/Daily-Coding-Problem</url>
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
   <dependencies>
     <dependency>
       <groupId>org.junit.jupiter</groupId>
