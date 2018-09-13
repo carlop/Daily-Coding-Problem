@@ -13,16 +13,10 @@ import static org.junit.jupiter.api.Assertions.*;
 @DisplayName("Problem 001")
 public class DailyCodingProblem001Test {
 
-    int[] exampleOne;
-    int[] exampleTwo;
+    int[] exampleOne = new int[] {10, 15, 3, 7};
+    int[] exampleTwo = new int[] {9, 14, 5, 4};
     int kOne = 17;
-    int kTwo = 11;
-
-    @BeforeEach
-    public void setUp() {
-        exampleOne = new int[] {10, 15, 3, 7};
-        exampleTwo = new int[] {9, 14, 2, 4};
-    }
+    int kTwo = 19;
 
     @Test
     @DisplayName("True example")
