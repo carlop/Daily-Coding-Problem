@@ -7,10 +7,10 @@ package es.carlop.dailycodingproblem.Problem001;
 public class Problem001 {
     public static Boolean addUpToK(int[] numberList, int k) {
         if (numberList.length != 0 || k <= 0) {
-            for (int i : numberList) {
-                for (int j : numberList) {
-                    if (i != j) {
-                        if ((i + j) == k) {
+            for (int i = 0; i < numberList.length; i++) {
+                for (int j = i; j < numberList.length; j++) {
+                    if (numberList[i] != numberList[j]) {
+                        if ((numberList[i] + numberList[j]) == k) {
                             return true;
                         }
                     }
