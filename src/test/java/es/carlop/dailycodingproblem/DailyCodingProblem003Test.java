@@ -26,8 +26,6 @@ public class DailyCodingProblem003Test {
                     .build())
             .build();
 
-    String serializedNode = "";
-
     @Test
     @DisplayName("Test serialize")
     public void testSerialize() {
